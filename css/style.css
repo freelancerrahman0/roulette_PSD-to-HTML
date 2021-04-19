@@ -999,6 +999,7 @@ img {
   right: 60px;
   bottom: 60px;
   z-index: 9999;
+  animation: down 3s linear;
 }
 .btt i {
   color: #fffeff;
@@ -1008,5 +1009,13 @@ img {
   line-height: 50px;
   font-size: 20px;
   border-radius: 50%;
+}
+@keyframes down {
+  0% {
+    bottom: 110vh;
+  }
+  50% {
+    bottom: 60px;
+  }
 }
 /*btn css end here*/
