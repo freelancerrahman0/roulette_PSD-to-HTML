@@ -122,6 +122,9 @@
     #time .timer .hours {
         margin-left: 20%;
     }
+    #time .form-group .form-control {
+        height: inherit;
+    }
     #offer .offer {
         text-align: center;
     }
