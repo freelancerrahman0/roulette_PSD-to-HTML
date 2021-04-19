@@ -13,10 +13,13 @@
      .navbar-nav {
          background: #111;
      }
-    .navbar .navbar-brand {
-        position: static;
-    }
 
+     .navbar .navbar-brand {
+         position: static;
+     }
+     .navbar-toggler{
+         margin-right: 40px;
+     }
     .navbar-toggler i {
         color: #fff;
         font-size: 20px;
@@ -150,6 +153,8 @@
     .btt {
         width: 35px;
         height: 35px;
+        right: 40px;
+        bottom: 40px;
     }
     .btt i {
         width: 35px;
