@@ -1,3 +1,8 @@
+/* 
+Template Name: Kertsmis  
+Author Email: freelancerrahman0@gmail.com 
+Version: 1.00 
+*/
 /*table of content 
     1. variable 
     2. mixing 
@@ -49,6 +54,113 @@ img {
   vertical-align: middle;
 }
 /*common css ends here*/
+.preload {
+  width: 100%;
+  height: 100vh;
+  background: #150035;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preload h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fffeff;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 30%;
+}
+.preload .loader {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.preload .loader span {
+  width: 30px;
+  height: 30px;
+  background: #fffeff;
+  border-radius: 50%;
+  position: relative;
+  animation: slide 3s infinite;
+}
+.preload .loader span:nth-child(1) {
+  animation-delay: .3s;
+}
+.preload .loader span:nth-child(2) {
+  animation-delay: .5s;
+}
+.preload .loader span:nth-child(3) {
+  animation-delay: .7s;
+}
+.preload .loader span:nth-child(4) {
+  animation-delay: .9s;
+}
+.preload .loader span:nth-child(5) {
+  animation-delay: 1.1s;
+}
+.preload .loader-2 {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.preload .loader-2 .hello {
+  width: 30px;
+  height: 30px;
+  background: #fffeff;
+  border-radius: 50%;
+  position: relative;
+  animation: slideleft 3s infinite;
+}
+.preload .loader-2 .hello:nth-child(1) {
+  animation-delay: .3s;
+}
+.preload .loader-2 .hello:nth-child(2) {
+  animation-delay: .5s;
+}
+.preload .loader-2 .hello:nth-child(3) {
+  animation-delay: .7s;
+}
+.preload .loader-2 .hello:nth-child(4) {
+  animation-delay: .9s;
+}
+.preload .loader-2 .hello:nth-child(5) {
+  animation-delay: 1.1s;
+}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 120vh;
+  }
+  100% {
+    left: 120vh;
+  }
+}
+@keyframes slideleft {
+  0% {
+    left: -120vh;
+  }
+  50% {
+    left: 0;
+  }
+  100% {
+    left: 0;
+  }
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -78,7 +190,7 @@ img {
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #ff39dc;
 }
-.navbar .navbar-nav .nav-item.active {
+.navbar .navbar-nav .nav-item .nav-link.active {
   color: #ff39dc;
 }
 .navbar .link {

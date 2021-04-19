@@ -15,7 +15,26 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- preloader starts here -->
+    <div class="preload">
+        <h4>loading....</h4>
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="loader-2">
+            <span class="hello"></span>
+            <span class="hello"></span>
+            <span class="hello"></span>
+            <span class="hello"></span>
+            <span class="hello"></span>
+        </div>
+    </div>
+    <!-- preloader ends here -->
     <!-- navber starts here -->
     <nav class="navbar navbar-expand-lg navbar-light p-0">
         <div class="container p-0">
@@ -29,8 +48,8 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#banner">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#banner">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#related">games</a>
@@ -65,7 +84,7 @@
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
-                <form action="">
+                <form>
                     <div class="modal-body">
                         <div class="form-group">
                             <h5>first name</h5>
@@ -136,17 +155,17 @@
     </div>
     <!-- modal ends here -->
     <!-- log in modal starts -->
-    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loging"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">log in</h5>
+                    <h5 class="modal-title" id="loging">log in</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
-                <form action="">
+                <form>
                     <div class="modal-body">
                         <div class="form-group">
                             <h5>email address</h5>
@@ -499,7 +518,7 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <h4 class="offer">subscribe for offer</h4>
-                    <form action="">
+                    <form >
                         <input class="email" type="email" placeholder="your e-mail here">
                         <button class="sent-btn" type="submit"><i class="fas fa-paper-plane"></i></button>
                     </form>

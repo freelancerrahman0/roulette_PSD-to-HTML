@@ -338,6 +338,12 @@
         #banner .banner-text .text {
             margin-top: -10px;
         }
+        #banner .banner-text .jack {
+            text-align: center !important;
+        }
+        #banner .banner-text .num {
+            text-align: center !important;
+        }
 
         #related .related-games .overlay {
             padding-top: 35px;

@@ -4,6 +4,9 @@ $(function () {
     $('.navber .nav-item').on('click', function () {
         $(this).addClass('active').siblings().removeClass('active');
     });
+    $(window).on('load', function () {
+        $('.preload').fadeOut(2000);
+    });
 
 
     //get Element form html;
@@ -95,7 +98,7 @@ $(function () {
     });
 
     // ready to log in
-    $('.modal-footer #log').on('click', function(){
+    $('.modal-footer #log').on('click', function () {
         //    email add;
 
         if (emaillog.value == '') {
