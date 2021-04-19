@@ -17,9 +17,6 @@
      .navbar .navbar-brand {
          position: static;
      }
-     .navbar-toggler{
-         margin-right: 40px;
-     }
     .navbar-toggler i {
         color: #fff;
         font-size: 20px;
