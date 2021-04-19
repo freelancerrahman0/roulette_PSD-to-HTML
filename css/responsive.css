@@ -50,8 +50,9 @@
         text-align: center !important;
     }
     #banner .banner-text .num {
-        font-size: 250px;
+        font-size: 200px;
         text-align: center !important;
+        margin-top: -30px;
     }
     #banner .one {
         position: static;
@@ -119,7 +120,7 @@
         margin-bottom: 50px;
     }
     #time .timer .hours {
-        margin-left: 27%;
+        margin-left: 20%;
     }
     #offer .offer {
         text-align: center;
@@ -151,15 +152,15 @@
         justify-content: center;
     }
     .btt {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
         right: 40px;
         bottom: 40px;
     }
     .btt i {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
         font-size: 16px;
     }
 
@@ -281,6 +282,8 @@
     .btt{
         width: 40px;
         height: 40px;
+        right: 40px;
+        bottom: 40px;
     }
     .btt i {
         width: 40px;
