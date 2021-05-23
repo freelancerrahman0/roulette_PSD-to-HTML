@@ -5,7 +5,7 @@ $(function () {
         $(this).addClass('active').siblings().removeClass('active');
     });
     $(window).on('load', function () {
-        $('.preload').fadeOut(2000);
+        $('.preload').delay(2000).fadeOut(2000);
     });
 
 
